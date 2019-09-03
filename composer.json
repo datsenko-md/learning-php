@@ -15,7 +15,8 @@
 	},
 	"autoload": {
 		"files": [
-			"src/Hexlet/BinarySum.php"
+			"src/Hexlet/BinarySum.php",
+            "src/Hexlet/IsPowerOfThree.php"
 		]
 	},
     "require": {},

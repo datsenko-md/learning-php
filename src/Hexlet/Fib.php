@@ -17,17 +17,18 @@ function fib($num)
     return fib($num - 1) + fib($num - 2);
 }
 
+// Альтернативное решение
 function fib2($num)
 {
-    if (($num === 0) || ($num === 1)) {
-        return $num;
+    $f0 = 0;
+    $f1 = 1;
+    $fibSum = 0;
+    
+    for($i = 0; $i < $num; $i++) {
+        $f0 = $f1;
+        $f1 = $fibSum;
+        $fibSum = $f0 + $f1;
     }
     
-    
-    
-    for ($i = 2; $i < $num; $i++) {
-        
-    }
-    
-    return ;
+    return $fibSum;
 }

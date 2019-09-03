@@ -15,7 +15,7 @@
 	},
 	"autoload": {
 		"files": [
-			
+			"src/Hexlet/BinarySum.php"
 		]
 	},
     "require": {},

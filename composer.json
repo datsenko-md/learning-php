@@ -1,0 +1,26 @@
+{
+    "name": "max/learning-php",
+    "description": "Learnin PHP on Hexlet and other platforms",
+    "authors": [
+        {
+            "name": "Maxim Datsenko",
+            "email": "datsenko.md@gmail.com"
+        }
+    ],
+	"scripts": {
+		"phpcs": "phpcs",
+		"phpcbf": "phpcbf",
+		"phpunit": "phpunit",
+		"test": "phpunit tests"
+	},
+	"autoload": {
+		"files": [
+			
+		]
+	},
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "phpunit/phpunit": "^8.3"
+    }
+}

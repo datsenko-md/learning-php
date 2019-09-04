@@ -23,7 +23,8 @@
             "src/Hexlet/AddPrefix.php",
             "src/Hexlet/ReverseArray.php",
             "src/Hexlet/SwapElementsInArray.php",
-            "src/Hexlet/IsContinuousSequence.php"
+            "src/Hexlet/IsContinuousSequence.php",
+            "src/Hexlet/CalculateAverage.php"
 		]
 	},
     "require": {},

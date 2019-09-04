@@ -17,7 +17,8 @@
 		"files": [
 			"src/Hexlet/BinarySum.php",
             "src/Hexlet/IsPowerOfThree.php",
-            "src/Hexlet/Fib.php"
+            "src/Hexlet/Fib.php",
+            "src/Hexlet/ChangeArray.php"
 		]
 	},
     "require": {},

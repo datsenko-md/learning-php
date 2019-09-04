@@ -19,7 +19,8 @@
             "src/Hexlet/IsPowerOfThree.php",
             "src/Hexlet/Fib.php",
             "src/Hexlet/ChangeArray.php",
-            "src/Hexlet/GetElementIfExists.php"
+            "src/Hexlet/GetElementIfExists.php",
+            "src/Hexlet/AddPrefix.php"
 		]
 	},
     "require": {},

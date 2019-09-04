@@ -26,7 +26,8 @@
             "src/Hexlet/IsContinuousSequence.php",
             "src/Hexlet/CalculateAverage.php",
             "src/Hexlet/CalculateMax.php",
-            "src/Hexlet/FindIndex.php"
+            "src/Hexlet/FindIndex.php",
+            "src/Hexlet/GetSameParity.php"
 		]
 	},
     "require": {},

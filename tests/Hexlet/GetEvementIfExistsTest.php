@@ -3,7 +3,7 @@
 namespace Learning\Php\Hexlet\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Learning\Php\Hexlet\getElementIfExists\getElementIfExists;
+use function Learning\Php\Hexlet\GetElementIfExists\getElementIfExists;
 
 class GetElementIfExistsTest extends TestCase
 {

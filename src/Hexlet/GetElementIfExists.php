@@ -9,7 +9,7 @@
 * * Значение по умолчанию
 */
 
-namespace Learning\Php\Hexlet\getElementIfExists;
+namespace Learning\Php\Hexlet\GetElementIfExists;
 
 function getElementIfExists(array $array, $index, $defaultValue = null)
 {

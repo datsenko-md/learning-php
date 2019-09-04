@@ -21,7 +21,8 @@
             "src/Hexlet/ChangeArray.php",
             "src/Hexlet/GetElementIfExists.php",
             "src/Hexlet/AddPrefix.php",
-            "src/Hexlet/ReverseArray.php"
+            "src/Hexlet/ReverseArray.php",
+            "src/Hexlet/SwapElementsInArray.php"
 		]
 	},
     "require": {},

@@ -24,7 +24,8 @@
             "src/Hexlet/ReverseArray.php",
             "src/Hexlet/SwapElementsInArray.php",
             "src/Hexlet/IsContinuousSequence.php",
-            "src/Hexlet/CalculateAverage.php"
+            "src/Hexlet/CalculateAverage.php",
+            "src/Hexlet/CalculateMax.php"
 		]
 	},
     "require": {},

@@ -1,9 +1,9 @@
 <?php
 
-namespace Learning\Php\Hexlet\Tests;
+namespace Php\Hexlet\Arrays\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Learning\Php\Hexlet\ReverseArray\reverseArray;
+use function Php\Hexlet\Arrays\ReverseArray\reverseArray;
 
 class ReverseArrayTest extends TestCase
 {

@@ -7,7 +7,7 @@
 * исходный массив.
 */
 
-namespace Learning\Php\Hexlet\SwapElementsInArray;
+namespace Php\Hexlet\Arrays\SwapElementsInArray;
 
 function swapElementsInArray(array $col, $center)
 {

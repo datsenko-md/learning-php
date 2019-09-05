@@ -1,9 +1,9 @@
 <?php
 
-namespace Learning\Php\Hexlet\Tests;
+namespace Php\Hexlet\Arrays\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Learning\Php\Hexlet\BinarySum\binarySum;
+use function Php\Hexlet\Arrays\BinarySum\binarySum;
 
 class BinarySumTest extends TestCase
 {

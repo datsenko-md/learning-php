@@ -5,7 +5,7 @@
 * натуральной степенью тройки
 */
 
-namespace Learning\Php\Hexlet\IsPowerOfThree;
+namespace Php\Hexlet\Arrays\IsPowerOfThree;
 
 function isPowerOfThree($number)
 {

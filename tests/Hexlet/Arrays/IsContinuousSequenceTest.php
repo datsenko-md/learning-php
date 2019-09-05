@@ -1,9 +1,9 @@
 <?php
 
-namespace Learning\Php\Hexlet\Tests;
+namespace Php\Hexlet\Arrays\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Learning\Php\Hexlet\IsContinuousSequence\isContinuousSequence;
+use function Php\Hexlet\Arrays\IsContinuousSequence\isContinuousSequence;
 
 class IsContinuousSequenceTest extends TestCase
 {

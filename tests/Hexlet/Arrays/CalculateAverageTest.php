@@ -1,16 +1,16 @@
 <?php
 
-namespace Learning\Php\Hexlet\Tests;
+namespace Php\Hexlet\Arrays\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Learning\Php\Hexlet\CalculateAverage\сalculateAverage;
+use function Php\Hexlet\Arrays\CalculateAverage\calculateAverage;
 
 class CalculateAverageTest extends TestCase
 {
     public function testCalculateAverage()
     {
-        $this->assertEquals(null, сalculateAverage([]));
-        $this->assertEquals(3.5, сalculateAverage([1, 4, 6, 3]));
-        $this->assertEquals(0, сalculateAverage([0]));
+        $this->assertEquals(null, calculateAverage([]));
+        $this->assertEquals(3.5, calculateAverage([1, 4, 6, 3]));
+        $this->assertEquals(0, calculateAverage([0]));
     }
 }

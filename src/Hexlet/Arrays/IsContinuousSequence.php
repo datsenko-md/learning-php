@@ -5,7 +5,7 @@
 * непрерывно возрастающей. Шаг роста равен 1.
 */
 
-namespace Learning\Php\Hexlet\IsContinuousSequence;
+namespace Php\Hexlet\Arrays\IsContinuousSequence;
 
 /*
 function isContinuousSequence(array $seq)

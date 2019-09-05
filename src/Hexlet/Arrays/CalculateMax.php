@@ -4,9 +4,9 @@
 * Функция находит максимальное значение в массиве.
 */
 
-namespace Learning\Php\Hexlet\CalculateMax;
+namespace Php\Hexlet\Arrays\CalculateMax;
 
-function сalculateMax(array $col)
+function calculateMax(array $col)
 {
     if (empty($col)) {
         return null;

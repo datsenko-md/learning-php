@@ -7,7 +7,7 @@
 * change -> изменяет значение по индексу
 */
 
-namespace Learning\Php\Hexlet\ChangeArray;
+namespace Php\Hexlet\Arrays\ChangeArray;
 
 function changeArray($array, $method, $index = null, $value = null)
 {

@@ -7,7 +7,7 @@
 * исходного массива.
 */
 
-namespace Learning\Php\Hexlet\GetSameParity;
+namespace Php\Hexlet\Arrays\GetSameParity;
 
 function getSameParity(array $col)
 {

@@ -5,7 +5,7 @@
 * После префикса ставится пробел.
 */
 
-namespace Learning\Php\Hexlet\AddPrefix;
+namespace Php\Hexlet\Arrays\AddPrefix;
 
 function addPrefix(array $array, $prefix)
 {

@@ -6,7 +6,7 @@
 * Если элемента не существует - возвращает -1.
 */
 
-namespace Learning\Php\Hexlet\FindIndex;
+namespace Php\Hexlet\Arrays\FindIndex;
 
 function findIndex(array $col, $value)
 {

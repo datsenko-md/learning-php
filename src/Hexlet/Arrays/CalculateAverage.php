@@ -4,9 +4,9 @@
 * Функция рассчитывает среднее арифметическое элементов массива.
 */
 
-namespace Learning\Php\Hexlet\CalculateAverage;
+namespace Php\Hexlet\Arrays\CalculateAverage;
 
-function сalculateAverage(array $col)
+function calculateAverage(array $col)
 {
     if (empty($col)) {
         return null;

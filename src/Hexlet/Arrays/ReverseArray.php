@@ -7,7 +7,7 @@
 * задачи в алгоритме.
 */
 
-namespace Learning\Php\Hexlet\ReverseArray;
+namespace Php\Hexlet\Arrays\ReverseArray;
 
 function reverseArray($array)
 {

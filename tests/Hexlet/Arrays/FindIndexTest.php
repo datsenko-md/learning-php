@@ -1,9 +1,9 @@
 <?php
 
-namespace Learning\Php\Hexlet\Tests;
+namespace Php\Hexlet\Arrays\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Learning\Php\Hexlet\FindIndex\findIndex;
+use function Php\Hexlet\Arrays\FindIndex\findIndex;
 
 class FindIndexTest extends TestCase
 {

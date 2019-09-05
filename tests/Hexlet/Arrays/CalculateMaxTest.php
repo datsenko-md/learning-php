@@ -1,16 +1,16 @@
 <?php
 
-namespace Learning\Php\Hexlet\Tests;
+namespace Php\Hexlet\Arrays\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Learning\Php\Hexlet\CalculateMax\сalculateMax;
+use function Php\Hexlet\Arrays\CalculateMax\calculateMax;
 
 class CalculateMaxTest extends TestCase
 {
     public function testCalculateMax()
     {
-        $this->assertEquals(null, сalculateMax([]));
-        $this->assertEquals(6, сalculateMax([1, 4, 6, 3]));
-        $this->assertEquals(0, сalculateMax([0]));
+        $this->assertEquals(null, calculateMax([]));
+        $this->assertEquals(6, calculateMax([1, 4, 6, 3]));
+        $this->assertEquals(0, calculateMax([0]));
     }
 }

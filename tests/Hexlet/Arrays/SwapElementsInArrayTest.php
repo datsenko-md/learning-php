@@ -1,9 +1,9 @@
 <?php
 
-namespace Learning\Php\Hexlet\Tests;
+namespace Php\Hexlet\Arrays\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Learning\Php\Hexlet\SwapElementsInArray\swapElementsInArray;
+use function Php\Hexlet\Arrays\SwapElementsInArray\swapElementsInArray;
 
 class SwapElementsInArrayTest extends TestCase
 {

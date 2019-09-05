@@ -13,16 +13,16 @@ function isContinuousSequence(array $seq)
     if ($seq === []) {
         return false;
     }
-    
+
     $continuousSeq = [];
-    
+
     $begin = $seq[0];
     $end = $seq[count($seq) - 1];
-    
+
     for ($i = $begin; $i <= $end; $i++) {
         $continuousSeq[] = $i;
     }
-    
+
     return $continuousSeq === $seq;
 }
 */

@@ -15,19 +15,19 @@
 	},
 	"autoload": {
 		"files": [
-			"src/Hexlet/BinarySum.php",
-            "src/Hexlet/IsPowerOfThree.php",
-            "src/Hexlet/Fib.php",
-            "src/Hexlet/ChangeArray.php",
-            "src/Hexlet/GetElementIfExists.php",
-            "src/Hexlet/AddPrefix.php",
-            "src/Hexlet/ReverseArray.php",
-            "src/Hexlet/SwapElementsInArray.php",
-            "src/Hexlet/IsContinuousSequence.php",
-            "src/Hexlet/CalculateAverage.php",
-            "src/Hexlet/CalculateMax.php",
-            "src/Hexlet/FindIndex.php",
-            "src/Hexlet/GetSameParity.php"
+			"src/Hexlet/Arrays/BinarySum.php",
+            "src/Hexlet/Arrays/IsPowerOfThree.php",
+            "src/Hexlet/Arrays/Fib.php",
+            "src/Hexlet/Arrays/ChangeArray.php",
+            "src/Hexlet/Arrays/GetElementIfExists.php",
+            "src/Hexlet/Arrays/AddPrefix.php",
+            "src/Hexlet/Arrays/ReverseArray.php",
+            "src/Hexlet/Arrays/SwapElementsInArray.php",
+            "src/Hexlet/Arrays/IsContinuousSequence.php",
+            "src/Hexlet/Arrays/CalculateAverage.php",
+            "src/Hexlet/Arrays/CalculateMax.php",
+            "src/Hexlet/Arrays/FindIndex.php",
+            "src/Hexlet/Arrays/GetSameParity.php"
 		]
 	},
     "require": {},

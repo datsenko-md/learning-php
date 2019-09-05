@@ -13,6 +13,6 @@ class SwapElementsInArrayTest extends TestCase
         
         $this->assertEquals(array_reverse($names), swapElementsInArray($names, 1));
         $this->assertEquals($names, swapElementsInArray($names, 0));
-        $this->assertEquals($names, swapElementsInArray($names, 2));   
+        $this->assertEquals($names, swapElementsInArray($names, 2));
     }
 }

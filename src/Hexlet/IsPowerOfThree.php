@@ -1,7 +1,7 @@
 <?php
 
 /*
-* Функция определяет, является ли число 
+* Функция определяет, является ли число
 * натуральной степенью тройки
 */
 
@@ -13,7 +13,7 @@ function isPowerOfThree($number)
         return true;
     }
     
-    $intPowerOfThree = round(pow($number, 1/3));
+    $intPowerOfThree = round(pow($number, 1 / 3));
     
     return $number === (int) pow(3, $intPowerOfThree);
 }

@@ -33,7 +33,8 @@
             "src/Hexlet/Arrays/BuildList.php",
             "src/Hexlet/Arrays/BuildDefinitionList.php",
             "src/Hexlet/Arrays/MakeCensored.php",
-            "src/Hexlet/Arrays/GetSameCount.php"
+            "src/Hexlet/Arrays/GetSameCount.php",
+            "src/Hexlet/Arrays/CountUniqChars.php"
 		]
 	},
     "require": {},

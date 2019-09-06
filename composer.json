@@ -29,7 +29,8 @@
             "src/Hexlet/Arrays/FindIndex.php",
             "src/Hexlet/Arrays/GetSameParity.php",
             "src/Hexlet/Arrays/FieldCheck.php",
-            "src/Hexlet/Arrays/GetIndexOfWarmestDay.php"
+            "src/Hexlet/Arrays/GetIndexOfWarmestDay.php",
+            "src/Hexlet/Arrays/BuildList.php"
 		]
 	},
     "require": {},

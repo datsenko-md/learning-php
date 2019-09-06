@@ -15,9 +15,9 @@
 	},
 	"autoload": {
 		"files": [
-			"src/Hexlet/Arrays/BinarySum.php",
-            "src/Hexlet/Arrays/IsPowerOfThree.php",
-            "src/Hexlet/Arrays/Fib.php",
+            "src/Hexlet/Basics/Challenges/BinarySum.php",
+            "src/Hexlet/Basics/Challenges/IsPowerOfThree.php",
+            "src/Hexlet/Basics/Challenges/Fib.php",
             "src/Hexlet/Arrays/ChangeArray.php",
             "src/Hexlet/Arrays/GetElementIfExists.php",
             "src/Hexlet/Arrays/AddPrefix.php",

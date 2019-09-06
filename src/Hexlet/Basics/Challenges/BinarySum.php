@@ -5,7 +5,7 @@
 * и возвращает их сумму. Сумма также возвращается в виде строки.
 */
 
-namespace Php\Hexlet\Arrays\BinarySum;
+namespace Php\Hexlet\Basics\Challenges\BinarySum;
 
 function binarySum($num1, $num2)
 {

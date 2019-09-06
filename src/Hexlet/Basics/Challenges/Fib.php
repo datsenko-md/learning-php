@@ -5,7 +5,7 @@
 * Аргумент - это порядковый номер числа.
 */
 
-namespace Php\Hexlet\Arrays\Fib;
+namespace Php\Hexlet\Basics\Challenges\Fib;
 
 // Вариант решения "в лоб"
 function fib($num)

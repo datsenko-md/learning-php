@@ -1,10 +1,10 @@
 <?php
 
-namespace Php\Hexlet\Arrays\Tests;
+namespace Php\Hexlet\Basics\Challenges\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Php\Hexlet\Arrays\Fib\fib;
-use function Php\Hexlet\Arrays\Fib\fib2;
+use function Php\Hexlet\Basics\Challenges\Fib\fib;
+use function Php\Hexlet\Basics\Challenges\Fib\fib2;
 
 class FibTest extends TestCase
 {

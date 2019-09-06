@@ -1,9 +1,9 @@
 <?php
 
-namespace Php\Hexlet\Arrays\Tests;
+namespace Php\Hexlet\Basics\Challenges\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Php\Hexlet\Arrays\IsPowerOfThree\isPowerOfThree;
+use function Php\Hexlet\Basics\Challenges\IsPowerOfThree\isPowerOfThree;
 
 class IsPowerOfThreeTest extends TestCase
 {

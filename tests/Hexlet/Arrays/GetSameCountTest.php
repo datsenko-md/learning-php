@@ -29,6 +29,5 @@ class GetSameCountTest extends TestCase
         
         $actual7 = getSameCount([1, 2, 3, 3, 4, 4], [4, 3, 3]);
         $this->assertEquals(2, $actual7);
-        
     }
 }

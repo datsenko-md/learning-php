@@ -16,12 +16,12 @@ namespace Php\Hexlet\Arrays\IsHappy;
     $center = strlen($num) / 2;
     $firstHalfSum = 0;
     $secondHalfSum = 0;
-    
+
     for ($i = 0; $i < $center; $i++) {
         $firstHalfSum += $num[$i];
         $secondHalfSum += $num[$i + $center];
     }
-    
+
     return $firstHalfSum === $secondHalfSum;
 }*/
 

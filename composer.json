@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+            "src/Hexlet/Basics/Challenges/AddDigits.php",
             "src/Hexlet/Basics/Challenges/IsPerfect.php",
             "src/Hexlet/Basics/Challenges/IsHappy.php",
             "src/Hexlet/Basics/Challenges/FizzBuzz.php",

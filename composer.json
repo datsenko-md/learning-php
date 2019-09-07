@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+            "src/Hexlet/Basics/Challenges/FizzBuzz.php",
             "src/Hexlet/Basics/Challenges/IsBalanced.php",
             "src/Hexlet/Basics/Challenges/BinarySum.php",
             "src/Hexlet/Basics/Challenges/IsPowerOfThree.php",

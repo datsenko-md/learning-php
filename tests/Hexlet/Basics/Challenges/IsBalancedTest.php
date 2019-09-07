@@ -1,9 +1,9 @@
 <?php
 
-namespace Php\Hexlet\Arrays\Tests;
+namespace Php\HexletBasics\Challenges\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Php\Hexlet\Arrays\IsBalanced\isBalanced;
+use function Php\Hexlet\Basics\Challenges\IsBalanced\isBalanced;
 
 class IsBalancedTest extends TestCase
 {

@@ -4,7 +4,7 @@
 Функция проверяет, сбалансирован ли набор скобок
 */
 
-namespace Php\Hexlet\Arrays\IsBalanced;
+namespace Php\Hexlet\Basics\Challenges\IsBalanced;
 
 /*
 function isBalanced($expression)

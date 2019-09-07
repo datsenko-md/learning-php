@@ -4,7 +4,7 @@
 Функиця реализует игру FizzBuzz
 */
 
-namespace Php\Hexlet\Arrays\FizzBuzz;
+namespace Php\Hexlet\Basics\Challenges\FizzBuzz;
 
 function fizzBuzz($begin, $end)
 {

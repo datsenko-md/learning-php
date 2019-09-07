@@ -4,7 +4,7 @@
 Функция определяет совершенное ли число.
 */
 
-namespace Php\Hexlet\Arrays\IsPerfect;
+namespace Php\Hexlet\Basics\Challenges\IsPerfect;
 
 /*function isPerfect($num)
 {

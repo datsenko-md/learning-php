@@ -9,7 +9,7 @@
 123421 - несчастливый 1+2+3 != 4+2+1
 */
 
-namespace Php\Hexlet\Arrays\IsHappy;
+namespace Php\Hexlet\Basics\Challenges\IsHappy;
 
 /*function isHappy($num)
 {

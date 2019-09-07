@@ -1,9 +1,9 @@
 <?php
 
-namespace Php\Hexlet\Arrays\Tests;
+namespace Php\Hexlet\Basics\Challenges\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Php\Hexlet\Arrays\FizzBuzz\fizzBuzz;
+use function Php\Hexlet\Basics\Challenges\FizzBuzz\fizzBuzz;
 
 class FizzBuzzTest extends TestCase
 {

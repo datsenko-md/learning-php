@@ -1,9 +1,9 @@
 <?php
 
-namespace Php\Hexlet\Arrays\Tests;
+namespace Php\Hexlet\Basics\Challenges\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Php\Hexlet\Arrays\IsPerfect\isPerfect;
+use function Php\Hexlet\Basics\Challenges\IsPerfect\isPerfect;
 
 class IsPerfectTest extends TestCase
 {

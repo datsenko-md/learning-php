@@ -18,6 +18,5 @@ class IsBalancedTest extends TestCase
         $this->assertFalse(isBalanced('('));
         $this->assertFalse(isBalanced(')'));
         $this->assertFalse(isBalanced(')('));
-        
     }
 }

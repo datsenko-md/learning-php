@@ -11,10 +11,10 @@ function isBalanced($expression)
 {
     $size = strlen($expression);
     $stack = [];
-    
+
     for ($i = 0; $i < $size; $i++) {
         $curr = $expression[$i];
-        
+
         if ($curr === '(') {
             array_push($stack, $curr);
         } else {
@@ -24,7 +24,7 @@ function isBalanced($expression)
             array_pop($stack);
         }
     }
-    
+
     return count($stack) === 0;
 }
 */

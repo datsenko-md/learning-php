@@ -3,7 +3,7 @@
 /*
 */
 
-namespace Php\Hexlet\Arrays\#nsName#;
+namespace Php\#namespace#\#localNs#;
 
 function #funcName#()
 {

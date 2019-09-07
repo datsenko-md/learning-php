@@ -1,16 +1,18 @@
 #! /bin/bash
-
+#Заметки для себя будущего
+#Определяем, пришли ли аргументы
 if [ ! -n "$1" ]
 then
 	echo "Arguments not found"
 	exit
 fi
 
+#Здесь хранятся шаблоны
 srcTemp='templates/srcTemp.php'
 testTemp='templates/testTemp.php'
-#default dir
-dir='Hexlet/Arrays'
 
+#Парсим аргументы
+#Получаем имя папки и файла
 while [ -n "$1" ]
 do
 	case "$1" in
@@ -18,16 +20,15 @@ do
 			shift ;;
 		-f) name=$2
 			shift ;;
-		--) shift
-			break ;;
 		-*) echo "$1 is not an option" 
 			exit ;;
-		*) 	name=$1 ;;
 	esac
 	
 	shift
 done
 
+#Проверяем, установлены ли имена файлов и папок
+#Защита от подобного запуска ./script -d '' -f ''
 if [[ ! -n "$name" || ! -n "$dir" ]]
 then
 	echo "FileName or DirName not set"
@@ -36,20 +37,40 @@ then
 	exit
 fi
 
+
 srcDir="src/$dir"
 testsDir="tests/$dir"
 
 if [[ ! -d "$srcDir" || ! -d "$testsDir" ]]
 then
 	echo "Directory $srcDir or $testsDir is not exists"
-	exit
+    while true; do
+        read -p "Do you wish to create folders?[yes]" yn
+        case $yn in
+            [Yy]* ) echo "Creating folders $srcDir and $testsDir";
+                    mkdir -p "$srcDir" "$testsDir";
+                    break ;;
+                    
+            [Nn]* ) echo "Folders are not created" ;;
+            
+            '' )    echo "Creating folders $srcDir and $testsDir";
+                    mkdir -p "$srcDir" "$testsDir";
+                    break ;;
+                    
+            * )     echo "Please answer yes or no.";;
+        esac
+    done
 fi
 
-#name=$1
+#Создаем имена файлов
 srcName=$name".php"
 testName=$name"Test.php"
-funcName="${name,}"
 
+#Имя функции и неймспейс
+funcName="${name,}"
+namespace=$(echo $dir | sed 's!\/!\\\\!g')
+
+#Полные пути к файлам
 srcFullName="$srcDir/$srcName"
 testFullName="$testsDir/$testName"
 
@@ -59,15 +80,11 @@ then
 	exit
 fi
 
-cp $srcTemp $srcName
-echo "Create file: $srcName"
-cp $testTemp $testName
-echo "Create file: $testName"
+cp $srcTemp $srcFullName
+echo "Create file: $srcFullName"
+cp $testTemp $testFullName
+echo "Create file: $testFullName"
 
-sed -i "s/#nsName#/$name/g; s/#funcName#/$funcName/g" $srcName
-sed -i "s/#nsName#/$name/g; s/#funcName#/$funcName/g" $testName
-
-mv $srcName $srcDir
-echo "Move $srcName to $srcDir"
-mv $testName $testsDir
-echo "Move $testName to $testsDir"
+#Изменение шаблонов тут
+sed -i "s/#localNs#/$name/g; s/#funcName#/$funcName/g; s/#namespace#/$namespace/g" $srcFullName
+sed -i "s/#localNs#/$name/g; s/#funcName#/$funcName/g; s/#namespace#/$namespace/g" $testFullName

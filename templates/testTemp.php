@@ -1,13 +1,13 @@
 <?php
 
-namespace Php\Hexlet\Arrays\Tests;
+namespace Php\#namespace#\Tests;
 
 use PHPUnit\Framework\TestCase;
-use function Php\Hexlet\Arrays\#nsName#\#funcName#;
+use function Php\#namespace#\#localNs#\#funcName#;
 
-class #nsName#Test extends TestCase
+class #localNs#Test extends TestCase
 {
-    public function test#nsName#()
+    public function test#localNs#()
     {
         $actual = #funcName#();
         $this->assertEquals();

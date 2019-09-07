@@ -8,6 +8,7 @@ then
 fi
 
 #Здесь хранятся шаблоны
+composer='composer.json'
 srcTemp='templates/srcTemp.php'
 testTemp='templates/testTemp.php'
 
@@ -88,3 +89,9 @@ echo "Create file: $testFullName"
 #Изменение шаблонов тут
 sed -i "s/#localNs#/$name/g; s/#funcName#/$funcName/g; s/#namespace#/$namespace/g" $srcFullName
 sed -i "s/#localNs#/$name/g; s/#funcName#/$funcName/g; s/#namespace#/$namespace/g" $testFullName
+
+#Добавление файла в composer
+sed -i "17a\ \t\t\t\"$srcFullName\","  $composer
+
+#Выполняем автозагрузку
+make autoload

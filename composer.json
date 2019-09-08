@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/Arrays/Challenges/HammingWeight.php",
  			"src/Hexlet/Arrays/Challenges/SummaryRanges.php",
  			"src/Hexlet/Arrays/Challenges/GetChunked.php",
  			"src/Hexlet/Arrays/Challenges/GetMirrorMatrix.php",

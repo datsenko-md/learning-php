@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/AssociativeArrays/GenDiff.php",
  			"src/Hexlet/AssociativeArrays/Pick.php",
  			"src/Hexlet/AssociativeArrays/GetIn.php",
  			"src/Hexlet/AssociativeArrays/GetWordsCount.php",

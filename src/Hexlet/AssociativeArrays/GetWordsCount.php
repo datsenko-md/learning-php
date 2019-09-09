@@ -19,5 +19,7 @@ function getWordsCount($str)
         }
     }
     
+    unset($result['']);
+    
     return $result;
 }

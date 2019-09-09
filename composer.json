@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/AssociativeArrays/GetWordsCount.php",
  			"src/Hexlet/AssociativeArrays/GetComposerFileData.php",
  			"src/Hexlet/Arrays/Challenges/GeneratePascalTriangleString.php",
  			"src/Hexlet/Arrays/Challenges/LongestLength.php",

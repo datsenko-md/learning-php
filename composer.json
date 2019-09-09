@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/AssociativeArrays/Challenges/ToRna.php",
  			"src/Hexlet/AssociativeArrays/Map.php",
  			"src/Hexlet/AssociativeArrays/GetSortedNames.php",
  			"src/Hexlet/AssociativeArrays/GenDiff.php",

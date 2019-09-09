@@ -12,14 +12,15 @@ function getWordsCount($str)
     $result = [];
     
     foreach ($words as $word) {
+        if (empty($word)) {
+            continue;
+        }
         if (!array_key_exists($word, $result)) {
             $result[$word] = 1;
         } else {
             $result[$word]++;
         }
     }
-    
-    unset($result['']);
     
     return $result;
 }

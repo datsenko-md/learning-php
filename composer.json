@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/Functions/Average.php",
  			"src/Hexlet/Functions/SayPrimeOrNot.php",
  			"src/Hexlet/AssociativeArrays/Challenges/FindWhere.php",
  			"src/Hexlet/AssociativeArrays/Challenges/BuildQueryString.php",

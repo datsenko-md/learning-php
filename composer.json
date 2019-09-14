@@ -3,8 +3,8 @@
     "description": "Learnin PHP on Hexlet and other platforms",
     "authors": [
         {
-            "name": "Maxim Datsenko",
-            "email": "datsenko.md@gmail.com"
+			"name": "Maxim Datsenko",
+			"email": "datsenko.md@gmail.com"
         }
     ],
 	"scripts": {
@@ -70,11 +70,11 @@
 			"src/Hexlet/Arrays/GetIntersectionOfSortedArray.php"
 		]
 	},
-    "require": {
-        "funct/funct": "^1.5"
-    },
-    "require-dev": {
-        "squizlabs/php_codesniffer": "*",
-        "phpunit/phpunit": "^8.3"
-    }
+	"require": {
+		"funct/funct": "^1.5"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "*",
+		"phpunit/phpunit": "^8.3"
+	}
 }

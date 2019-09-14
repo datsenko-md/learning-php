@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/Functions/Slugify.php",
  			"src/Hexlet/Functions/Union.php",
  			"src/Hexlet/Functions/Average.php",
  			"src/Hexlet/Functions/SayPrimeOrNot.php",

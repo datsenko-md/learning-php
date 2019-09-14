@@ -68,7 +68,9 @@
             "src/Hexlet/Arrays/GetIntersectionOfSortedArray.php"
 		]
 	},
-    "require": {},
+    "require": {
+        "funct/funct": "^1.5"
+    },
     "require-dev": {
         "squizlabs/php_codesniffer": "*",
         "phpunit/phpunit": "^8.3"

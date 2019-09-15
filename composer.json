@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/Functions/GetGirlFriends.php",
  			"src/Hexlet/Functions/GetChildren.php",
  			"src/Hexlet/Functions/TakeOldest.php",
 			"src/Hexlet/Functions/LastSym.php",

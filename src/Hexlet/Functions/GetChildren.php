@@ -13,9 +13,5 @@ function getChildren($users)
         return $user['children'];
     }, $users);
     
-//    $children = array_map(function ($child) {
-//        return flatten($child);
-//    }, $children);
-    
     return flatten($children);
 }

@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/Functions/TakeOldest.php",
 			"src/Hexlet/Functions/LastSym.php",
 			"src/Hexlet/Functions/Slugify.php",
 			"src/Hexlet/Functions/Union.php",

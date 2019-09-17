@@ -29,3 +29,21 @@ function getY($point)
 {
     return getRadius($point) * sin(getAngle($point));
 }
+
+function getQuadrant($point)
+{
+    $x = getX($point);
+    $y = getY($point);
+    
+    if ($x > 0 && $y > 0) {
+        return 1;
+    } elseif ($x < 0 && $y > 0) {
+        return 2;
+    } elseif ($x < 0 && $y < 0) {
+        return 3;
+    } elseif ($x > 0 && $y < 0) {
+        return 4;
+    }
+    
+    return null;
+}

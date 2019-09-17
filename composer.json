@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/Functions/Challenges/FindIndexOfNearest.php",
  			"src/Hexlet/Functions/GetDifference.php",
  			"src/Hexlet/Functions/Without.php",
  			"src/Hexlet/Functions/GetManWithLeastFriends.php",

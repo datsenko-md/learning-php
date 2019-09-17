@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/Functions/GetManWithLeastFriends.php",
  			"src/Hexlet/Functions/GetFreeDomainsCount.php",
  			"src/Hexlet/Functions/GetMenCountByYear.php",
  			"src/Hexlet/Functions/GetGirlFriends.php",

@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/DataAbstractions/Gcd.php",
  			"src/Hexlet/DataAbstractions/Rectangle.php",
  			"src/Hexlet/DataAbstractions/Segments.php",
  			"src/Hexlet/DataAbstractions/Points.php",

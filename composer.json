@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/DataAbstractions/Segments.php",
  			"src/Hexlet/DataAbstractions/Points.php",
  			"src/Hexlet/DataAbstractions/CalculateDistance.php",
  			"src/Hexlet/Functions/Challenges/EnlargeArrayImage.php",

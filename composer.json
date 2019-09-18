@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/DataAbstractions/Challenges/Url.php",
  			"src/Hexlet/DataAbstractions/Rational.php",
  			"src/Hexlet/DataAbstractions/Gcd.php",
  			"src/Hexlet/DataAbstractions/Rectangle.php",

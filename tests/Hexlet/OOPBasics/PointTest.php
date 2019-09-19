@@ -9,9 +9,7 @@ class PointTest extends TestCase
 {
     public function testPoint()
     {
-        $point = new Point();
-        $point->x = 5;
-        $point->y = 10;
+        $point = new Point(5, 10);
         
         $this->assertEquals(5, $point->x);
         $this->assertEquals(10, $point->y);

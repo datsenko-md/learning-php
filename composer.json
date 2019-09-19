@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/OOPBasics/SegmentFunctions.php",
  			"src/Hexlet/OOPBasics/UserFunctions.php",
  			"src/Hexlet/OOPBasics/PointFunctions.php",
  			"src/Hexlet/DataAbstractions/Challenges/Url.php",

@@ -12,3 +12,15 @@ function getMidpoint(Point $point1, Point $point2)
     
     return $midPoint;
 }
+
+function dup(Point $point)
+{
+    $x = $point->x;
+    $y = $point->y;
+    
+    $duplicate = new Point();
+    
+    $duplicate->x = $x;
+    $duplicate->y = $y;
+    return $duplicate;
+}

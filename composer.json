@@ -87,7 +87,10 @@
 			"src/Hexlet/Arrays/BubbleSort.php",
 			"src/Hexlet/Arrays/CheckIfBalanced.php",
 			"src/Hexlet/Arrays/GetIntersectionOfSortedArray.php"
-		]
+		],
+        "psr-4": {
+            "Php\\": "src/"
+        }
 	},
 	"require": {
 		"funct/funct": "^1.5"

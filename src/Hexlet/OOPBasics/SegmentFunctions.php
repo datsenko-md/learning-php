@@ -10,8 +10,8 @@ function reverse(Segment $segment)
     $startP = $segment->beginPoint;
     $endP = $segment->endPoint;
     
-    $beginPoint = new Point($endP->x, $endP->y);
-    $endPoint = new Point($startP->x, $startP->y);
+    $beginPoint = new Point($endP->getX(), $endP->getY());
+    $endPoint = new Point($startP->getX(), $startP->getY());
     
     return new Segment($beginPoint, $endPoint);
 }

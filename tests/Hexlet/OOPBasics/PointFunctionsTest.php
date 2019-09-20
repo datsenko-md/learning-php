@@ -15,8 +15,8 @@ class PointFunctionsTest extends TestCase
         $point2 = new Point(1, 10);
         
         $midpoint = getMidpoint($point1, $point2);
-        $this->assertEquals(5.5, $midpoint->x);
-        $this->assertEquals(5.5, $midpoint->y);
+        $this->assertEquals(5.5, $midpoint->getX());
+        $this->assertEquals(5.5, $midpoint->getY());
     }
     
     public function testDup()
@@ -24,7 +24,7 @@ class PointFunctionsTest extends TestCase
         $p1 = new Point(3, 5);
         $p2 = dup($p1);
         
-        $this->assertEquals(3, $p2->x);
-        $this->assertEquals(5, $p2->y);
+        $this->assertEquals(3, $p2->getX());
+        $this->assertEquals(5, $p2->getY());
     }
 }

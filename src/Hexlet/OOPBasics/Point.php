@@ -4,8 +4,8 @@ namespace Php\Hexlet\OOPBasics;
 
 class Point
 {
-    public $x;
-    public $y;
+    private $x;
+    private $y;
     
     public function __construct($x, $y)
     {

@@ -6,8 +6,8 @@ use Php\Hexlet\OOPBasics\Point;
 
 function getMidpoint(Point $point1, Point $point2)
 {
-    $x = ($point1->x + $point2->x) / 2;
-    $y = ($point1->y + $point2->y) / 2;
+    $x = ($point1->getX() + $point2->getX()) / 2;
+    $y = ($point1->getY() + $point2->getY()) / 2;
     
     $midPoint = new Point($x, $y);
     
@@ -16,8 +16,8 @@ function getMidpoint(Point $point1, Point $point2)
 
 function dup(Point $point)
 {
-    $x = $point->x;
-    $y = $point->y;
+    $x = $point->getX();
+    $y = $point->getY();
     
     $duplicate = new Point($x, $y);
     

@@ -2,7 +2,9 @@
 
 namespace Php\Hexlet\OOPBasics;
 
-class User
+use Php\Hexlet\OOPBasics\Comparable;
+
+class User implements Comparable
 {
     private $id;
     private $name;
@@ -21,5 +23,10 @@ class User
     public function getName()
     {
         return $this->name;
+    }
+    
+    public function compareTo(User $user)
+    {
+        return $this->getId() === $user->getId();
     }
 }

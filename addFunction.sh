@@ -9,8 +9,8 @@ fi
 
 #Здесь хранятся шаблоны
 composer='composer.json'
-srcTemp='templates/srcTemp.php'
-testTemp='templates/testTemp.php'
+srcTemp='templates/srcFunctionTemp.php'
+testTemp='templates/testFunctionTemp.php'
 
 #Парсим аргументы
 #Получаем имя папки и файла

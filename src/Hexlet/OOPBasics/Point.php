@@ -4,6 +4,8 @@ namespace Php\Hexlet\OOPBasics;
 
 class Point
 {
+    public static $table = 'points';
+    
     private $x;
     private $y;
     

@@ -9,12 +9,9 @@ class UserTest extends TestCase
 {
     public function testUser()
     {
-        $user = new User();
+        $user = new User(5, 'Tom');
         
-        $user->id = 5;
-        $user->name = 'Tom';
-        
-        $this->assertEquals(5, $user->id);
-        $this->assertEquals('Tom', $user->name);
+        $this->assertEquals(5, $user->getId());
+        $this->assertEquals('Tom', $user->getName());
     }
 }

@@ -2,7 +2,9 @@
 
 namespace Php\Hexlet\OOPBasics;
 
-class Point
+use Php\Hexlet\OOPBasics\DecartPointInterface;
+
+class Point implements DecartPointInterface
 {
     public static $table = 'points';
     

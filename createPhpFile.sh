@@ -52,7 +52,8 @@ then
                     mkdir -p "$srcDir" "$testsDir";
                     break ;;
                     
-            [Nn]* ) echo "Folders are not created" ;;
+            [Nn]* ) echo "Folders are not created" 
+                    exit ;;
             
             '' )    echo "Creating folders $srcDir and $testsDir";
                     mkdir -p "$srcDir" "$testsDir";

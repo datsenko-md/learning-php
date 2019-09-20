@@ -13,5 +13,6 @@ class PointTest extends TestCase
         
         $this->assertEquals(5, $point->getX());
         $this->assertEquals(10, $point->getY());
+        $this->assertEquals('(5, 10)', "{$point}");
     }
 }

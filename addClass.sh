@@ -8,9 +8,8 @@ then
 fi
 
 #Здесь хранятся шаблоны
-composer='composer.json'
-srcTemp='templates/srcClassTemp.php'
-testTemp='templates/testClassTemp.php'
+srcTemp='templates/Class/srcClassTemp.php'
+testTemp='templates/Class/testClassTemp.php'
 
 #Парсим аргументы
 #Получаем имя папки и файла

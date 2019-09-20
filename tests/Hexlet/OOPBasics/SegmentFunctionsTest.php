@@ -17,7 +17,7 @@ class SegmentFunctionsTest extends TestCase
         $segment = new Segment($beginPoint, $endPoint);
         $reversedSegment = reverse($segment);
         
-        $this->assertEquals($endPoint, $reversedSegment->beginPoint);
-        $this->assertEquals($beginPoint, $reversedSegment->endPoint);
+        $this->assertEquals($endPoint, $reversedSegment->getBeginPoint());
+        $this->assertEquals($beginPoint, $reversedSegment->getEndPoint());
     }
 }

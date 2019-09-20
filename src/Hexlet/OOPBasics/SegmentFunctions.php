@@ -7,8 +7,8 @@ use Php\Hexlet\OOPBasics\Point;
 
 function reverse(Segment $segment)
 {
-    $startP = $segment->beginPoint;
-    $endP = $segment->endPoint;
+    $startP = $segment->getBeginPoint();
+    $endP = $segment->getEndPoint();
     
     $beginPoint = new Point($endP->getX(), $endP->getY());
     $endPoint = new Point($startP->getX(), $startP->getY());

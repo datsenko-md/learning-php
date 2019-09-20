@@ -15,7 +15,7 @@ class SegmentTest extends TestCase
         
         $segment = new Segment($point1, $point2);
 
-        $this->assertEquals($point1, $segment->beginPoint);
-        $this->assertEquals($point2, $segment->endPoint);
+        $this->assertEquals($point1, $segment->getBeginPoint());
+        $this->assertEquals($point2, $segment->getEndPoint());
     }
 }

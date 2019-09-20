@@ -15,6 +15,11 @@ class Segment
         $this->endPoint = $endPoint;
     }
     
+    public function __toString()
+    {
+        return "[{$this->beginPoint}, {$this->endPoint}]";
+    }
+    
     public function getBeginPoint()
     {
         return $this->beginPoint;

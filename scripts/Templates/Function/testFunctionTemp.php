@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\#namespace#\Tests;
+namespace Tests\#namespace#;
 
 use PHPUnit\Framework\TestCase;
 use function Php\#namespace#\#localNs#\#funcName#;

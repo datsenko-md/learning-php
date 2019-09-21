@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\HexletBasics\Challenges\Tests;
+namespace Tests\HexletBasics\Challenges;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\Basics\Challenges\IsBalanced\isBalanced;

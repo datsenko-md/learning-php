@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\Arrays\Tests;
+namespace Tests\Hexlet\Arrays;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\Arrays\SwapElementsInArray\swapElementsInArray;

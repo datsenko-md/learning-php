@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\AssociativeArrays\Challenges\Tests;
+namespace Tests\Hexlet\AssociativeArrays\Challenges;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\AssociativeArrays\Challenges\BuildQueryString\buildQueryString;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\Functions\Challenges\Tests;
+namespace Tests\Hexlet\Functions\Challenges;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\Functions\Challenges\GetSameParity\getSameParity;

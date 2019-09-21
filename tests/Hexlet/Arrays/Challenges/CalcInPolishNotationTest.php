@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\Arrays\Challenges\Tests;
+namespace Tests\Hexlet\Arrays\Challenges;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\Arrays\Challenges\CalcInPolishNotation\calcInPolishNotation;

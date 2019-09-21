@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\DataAbstractions\Tests;
+namespace Tests\Hexlet\DataAbstractions;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\DataAbstractions\Rational\makeRational;

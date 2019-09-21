@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\DataAbstractions\Challenges\Tests;
+namespace Tests\Hexlet\DataAbstractions\Challenges;
 
 use PHPUnit\Framework\TestCase;
 use Php\Hexlet\DataAbstractions\Challenges\Url;

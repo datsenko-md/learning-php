@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\AssociativeArrays\Tests;
+namespace Tests\Hexlet\AssociativeArrays;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\AssociativeArrays\GetWordsCount\getWordsCount;

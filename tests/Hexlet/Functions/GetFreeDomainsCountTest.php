@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\Functions\Tests;
+namespace Tests\Hexlet\Functions;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\Functions\GetFreeDomainsCount\getFreeDomainsCount;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\OOPBasics\Tests;
+namespace Tests\Hexlet\OOPBasics;
 
 use PHPUnit\Framework\TestCase;
 use Php\Hexlet\OOPBasics\Segment;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Php\Hexlet\Basics\Challenges\Tests;
+namespace Tests\Hexlet\Basics\Challenges;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\Basics\Arrays\CountUniqChars\countUniqChars;

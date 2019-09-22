@@ -25,6 +25,5 @@ class TakeOldestTest extends TestCase
         $expected2 = [['name' => 'Rob', 'birthday' => '1975-01-11'],
                      ['name' => 'Tirion', 'birthday' => '1988-11-19']];
         $this->assertEquals($expected2, $actual2);
-        
     }
 }

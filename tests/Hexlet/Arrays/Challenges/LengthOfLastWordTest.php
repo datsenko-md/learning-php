@@ -12,6 +12,5 @@ class LengthOfLastWordTest extends TestCase
         $this->assertEquals(0, lengthOfLastWord(''));
         $this->assertEquals(5, lengthOfLastWord('man in BlacK'));
         $this->assertEquals(6, lengthOfLastWord('hello, world!  '));
-        
     }
 }

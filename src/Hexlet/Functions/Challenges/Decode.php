@@ -5,7 +5,7 @@ namespace Php\Hexlet\Functions\Challenges\Decode;
 /*function decode(string $str)
 {
     $parts = preg_split("//u", $str, -1, PREG_SPLIT_NO_EMPTY);
-    
+
     ['result' => $signal] = array_reduce($parts, function ($acc, $part) {
         if ($part === '|') {
             $acc['change'] = true;
@@ -18,16 +18,16 @@ namespace Php\Hexlet\Functions\Challenges\Decode;
             $acc['current'] = !$acc['current'];
             return $acc;
         }
-        
+
         $acc['result'][] = $acc['current'];
         return $acc;
-        
+
     }, ['current' => true, 'change' => false, 'result' => []]);
-    
+
     $bits = array_map(function ($item) {
         return $item ? 0 : 1;
     }, $signal);
-    
+
     return implode('', $bits);
 }*/
 

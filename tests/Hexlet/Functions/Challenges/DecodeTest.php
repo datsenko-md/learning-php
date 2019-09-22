@@ -14,15 +14,14 @@ class DecodeTest extends TestCase
         $expected = '011000110100';
         $this->assertEquals($expected, $actual);
 
-        $signal2= '|¯|___|¯¯¯¯¯|___|¯|_|¯';
+        $signal2 = '|¯|___|¯¯¯¯¯|___|¯|_|¯';
         $actual2 = decode($signal2);
         $expected2 = '110010000100111';
         $this->assertEquals($expected2, $actual2);
 
-        $signal3= '¯|___|¯¯¯¯¯|___|¯|_|¯';
+        $signal3 = '¯|___|¯¯¯¯¯|___|¯|_|¯';
         $actual3 = decode($signal3);
         $expected3 = '010010000100111';
         $this->assertEquals($expected3, $actual3);
-        
     }
 }

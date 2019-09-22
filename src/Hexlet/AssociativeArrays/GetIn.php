@@ -10,18 +10,18 @@ namespace Php\Hexlet\AssociativeArrays\GetIn;
 {
     while (is_array($data)) {
         $currKey = array_shift($keys);
-        
+
         if (!array_key_exists($currKey, $data)) {
             return null;
         }
-        
+
         if (empty($keys)) {
             return $data[$currKey];
         } else {
             return getIn($data[$currKey], $keys);
         }
     }
-    
+
     return null;
 }*/
 

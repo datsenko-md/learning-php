@@ -37,4 +37,4 @@ function calcInPolishNotation($expression)
     return array_pop($stack);
 }
 
-// 			"src/Hexlet/Arrays/Challenges/CalcInPolishNotation.php",
+//          "src/Hexlet/Arrays/Challenges/CalcInPolishNotation.php",

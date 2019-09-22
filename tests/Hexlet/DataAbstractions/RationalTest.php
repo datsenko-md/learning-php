@@ -23,7 +23,6 @@ class RationalTest extends TestCase
     {
         $a = makeRational(10, 20);
         $this->assertEquals('1/2', ratToString($a));
-        
     }
     
     public function testAddAndSub()

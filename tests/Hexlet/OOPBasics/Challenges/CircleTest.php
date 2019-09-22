@@ -18,6 +18,5 @@ class CircleTest extends TestCase
         $this->assertEquals($radius, $circle->getRadius());
         $this->assertEquals($area, $circle->getArea());
         $this->assertEquals($circumference, $circle->getCircumference());
-        
     }
 }

@@ -7,24 +7,24 @@ namespace Php\Hexlet\Functions\Challenges\FindIndexOfNearest;
 //    if (empty($items)) {
 //        return null;
 //    }
-//    
+//
 //    $distances = array_map(function ($item) use ($value) {
 //        return abs($item - $value);
 //    }, $items);
-//    
+//
 //    $minDistance = array_reduce($distances, function ($min, $distance) {
 //        if ($distance < $min) {
 //            $min = $distance;
 //        }
 //        return $min;
 //    }, $distances[0]);
-//    
+//
 //    $minDistances = array_filter($distances, function ($distance) use ($minDistance) {
 //        return $distance === $minDistance;
 //    });
-//    
+//
 //    [$smallestIndexOfMin] = array_keys($minDistances);
-//    
+//
 //    return $smallestIndexOfMin;
 //}
 

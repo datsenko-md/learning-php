@@ -24,6 +24,5 @@ class FindWhereTest extends TestCase
 
         $actual = findWhere($data, ['author' => 'blabla']);
         $this->assertEquals(null, $actual);
-    
     }
 }

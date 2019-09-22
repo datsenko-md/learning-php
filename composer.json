@@ -103,7 +103,8 @@
         }
     },
 	"require": {
-		"funct/funct": "^1.5"
+		"funct/funct": "^1.5",
+		"php-ds/php-ds": "^1.2"
 	},
 	"require-dev": {
 		"squizlabs/php_codesniffer": "*",

@@ -96,6 +96,11 @@
             "Php\\": "src/"
         }
 	},
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
 	"require": {
 		"funct/funct": "^1.5"
 	},

@@ -4,6 +4,7 @@ namespace Tests\Hexlet\OODesign;
 
 use PHPUnit\Framework\TestCase;
 use function Php\Hexlet\OODesign\Normalizer\normalize;
+use function Php\Hexlet\OODesign\Normalizer\getQuestions;
 
 class NormalizerTest extends TestCase
 {
@@ -85,6 +86,22 @@ class NormalizerTest extends TestCase
                 'madrid', 'valencia'
             ]
         ];
+        $this->assertEquals($expected, $actual);
+    }
+    
+    public function testGetQuestions()
+    {
+        $text = <<<HEREDOC
+lala\r\nr
+ehu?
+vie?eii
+\n \t
+i see you
+/r \n
+one two?\r\n\n
+HEREDOC;
+        $expected = "ehu?\none two?";
+        $actual = getQuestions($text);
         $this->assertEquals($expected, $actual);
     }
 }

@@ -3,6 +3,7 @@
 namespace Php\Hexlet\OODesign\Normalizer;
 
 use Tightenco\Collect\Support;
+use function Stringy\create as s;
 
 function normalize(array $row)
 {
@@ -21,4 +22,14 @@ function normalize(array $row)
         })
         ->sortKeys()
         ->toArray();
+}
+
+function getQuestions($text)
+{
+    $lines = s($text)->lines();
+    $filtered = collect($lines)->filter(function ($line) {
+        return $line->endsWith('?');
+    });
+    
+    return implode("\n", $filtered->all());
 }

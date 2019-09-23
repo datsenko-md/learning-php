@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/OODesign/CheckIfBalanced.php",
  			"src/Hexlet/OODesign/Converter.php",
  			"src/Hexlet/OOPBasics/Safe.php",
  			"src/Hexlet/OOPBasics/SegmentFunctions.php",

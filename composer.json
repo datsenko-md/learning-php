@@ -15,6 +15,7 @@
 	},
 	"autoload": {
 		"files": [
+ 			"src/Hexlet/OODesign/Normalizer.php",
  			"src/Hexlet/OODesign/Comparator.php",
  			"src/Hexlet/OODesign/CheckIfBalanced.php",
  			"src/Hexlet/OODesign/Converter.php",

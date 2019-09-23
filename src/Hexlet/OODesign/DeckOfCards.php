@@ -16,7 +16,6 @@ class DeckOfCards
     public function getFullDeck()
     {
         return $this->deck->map(function ($card) {
-//            return [$card, $card, $card, $card];
             return array_fill(0, 4, $card);
         })->collapse();
     }

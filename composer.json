@@ -109,7 +109,8 @@
 		"funct/funct": "^1.5",
 		"php-ds/php-ds": "^1.2",
 		"tightenco/collect": "^6.0",
-		"nesbot/carbon": "^2.24"
+		"nesbot/carbon": "^2.24",
+        "danielstjules/stringy": "~3.1.0"
 	},
 	"require-dev": {
 		"squizlabs/php_codesniffer": "*",

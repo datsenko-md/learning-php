@@ -1,13 +1,153 @@
 # Изучение PHP
 
-В этом репозитории будут хранится задачки, решенные во время обучению программированию на PHP.
+Решение задачек по программированию на PHP во время обучения на Хекслете.
 
 ---
 
-### Hexlet
+### Хекслет
 
->Хекслет — практические курсы по программированию. Мы помогаем новичкам стать профессиональными программистами, а опытным разработчикам получать новые знания и расти профессионально.
-
-[Мой аккаунт на Хекслете](https://ru.hexlet.io/u/datsenko_md)
+>Практические курсы по программированию. Мы помогаем новичкам стать профессиональными программистами, а опытным разработчикам получать новые знания и расти профессионально.
 
 ---
+
+### Ссылки
+* [Хекслет](https://ru.hexlet.io)
+* [Мой аккаунт на Хекслете](https://ru.hexlet.io/u/datsenko_md)
+
+---
+
+### Установка
+
+* `git clone https://github.com/datsenko-md/learning-php.git`
+* `cd hexlet-php`
+* `make install`
+* `make test`
+
+---
+
+### Содержание
+
+* [Basics](src/Basics)
+    * [Challenges](src/Basics/Challenges)
+        * [IsBalanced](src/Basics/Challenges/IsBalanced.php)
+        * [IsHappy](src/Basics/Challenges/IsHappy.php)
+        * [BinarySum](src/Basics/Challenges/BinarySum.php)
+        * [FizzBuzz](src/Basics/Challenges/FizzBuzz.php)
+        * [AddDigits](src/Basics/Challenges/AddDigits.php)
+        * [IsPowerOfThree](src/Basics/Challenges/IsPowerOfThree.php)
+        * [IsPerfect](src/Basics/Challenges/IsPerfect.php)
+        * [Fib](src/Basics/Challenges/Fib.php)
+* [Arrays](src/Arrays)
+    * [Lessons](src/Arrays/Lessons)
+        * [BubbleSort](src/Arrays/Lessons/BubbleSort.php)
+        * [GetIntersectionOfSortedArray](src/Arrays/Lessons/GetIntersectionOfSortedArray.php)
+        * [ChangeArray](src/Arrays/Lessons/ChangeArray.php)
+        * [GetSameParity](src/Arrays/Lessons/GetSameParity.php)
+        * [BuildDefinitionList](src/Arrays/Lessons/BuildDefinitionList.php)
+        * [ReverseArray](src/Arrays/Lessons/ReverseArray.php)
+        * [GetElementIfExists](src/Arrays/Lessons/GetElementIfExists.php)
+        * [IsContinuousSequence](src/Arrays/Lessons/IsContinuousSequence.php)
+        * [AddPrefix](src/Arrays/Lessons/AddPrefix.php)
+        * [FindIndex](src/Arrays/Lessons/FindIndex.php)
+        * [GetIndexOfWarmestDay](src/Arrays/Lessons/GetIndexOfWarmestDay.php)
+        * [SwapElementsInArray](src/Arrays/Lessons/SwapElementsInArray.php)
+        * [CheckIfBalanced](src/Arrays/Lessons/CheckIfBalanced.php)
+        * [CountUniqChars](src/Arrays/Lessons/CountUniqChars.php)
+        * [BuildList](src/Arrays/Lessons/BuildList.php)
+        * [CalculateMax](src/Arrays/Lessons/CalculateMax.php)
+        * [FieldCheck](src/Arrays/Lessons/FieldCheck.php)
+        * [CalculateAverage](src/Arrays/Lessons/CalculateAverage.php)
+        * [GetSameCount](src/Arrays/Lessons/GetSameCount.php)
+        * [MakeCensored](src/Arrays/Lessons/MakeCensored.php)
+    * [Challenges](src/Arrays/Challenges)
+        * [CalcInPolishNotation](src/Arrays/Challenges/CalcInPolishNotation.php)
+        * [LengthOfLastWord](src/Arrays/Challenges/LengthOfLastWord.php)
+        * [GetMirrorMatrix](src/Arrays/Challenges/GetMirrorMatrix.php)
+        * [GetChunked](src/Arrays/Challenges/GetChunked.php)
+        * [HammingWeight](src/Arrays/Challenges/HammingWeight.php)
+        * [CompareVersion](src/Arrays/Challenges/CompareVersion.php)
+        * [GeneratePascalTriangleString](src/Arrays/Challenges/GeneratePascalTriangleString.php)
+        * [LongestLength](src/Arrays/Challenges/LongestLength.php)
+        * [SummaryRanges](src/Arrays/Challenges/SummaryRanges.php)
+* [Associative Arrays](src/AssociativeArrays)
+    * [Lessons](src/AssociativeArrays/Lessons)
+        * [GetComposerFileData](src/AssociativeArrays/Lessons/GetComposerFileData.php)
+        * [Map](src/AssociativeArrays/Lessons/Map.php)
+        * [GenDiff](src/AssociativeArrays/Lessons/GenDiff.php)
+        * [Pick](src/AssociativeArrays/Lessons/Pick.php)
+        * [GetSortedNames](src/AssociativeArrays/Lessons/GetSortedNames.php)
+        * [GetWordsCount](src/AssociativeArrays/Lessons/GetWordsCount.php)
+        * [GetIn](src/AssociativeArrays/Lessons/GetIn.php)
+    * [Challenges](src/AssociativeArrays/Challenges)
+        * [FindWhere](src/AssociativeArrays/Challenges/FindWhere.php)
+        * [FromPairs](src/AssociativeArrays/Challenges/FromPairs.php)
+        * [ToRna](src/AssociativeArrays/Challenges/ToRna.php)
+        * [BuildQueryString](src/AssociativeArrays/Challenges/BuildQueryString.php)
+* [Functions](src/Functions)
+    * [Lessons](src/Functions/Lessons)
+        * [GetFreeDomainsCount](src/Functions/Lessons/GetFreeDomainsCount.php)
+        * [TakeOldest](src/Functions/Lessons/TakeOldest.php)
+        * [GetManWithLeastFriends](src/Functions/Lessons/GetManWithLeastFriends.php)
+        * [Without](src/Functions/Lessons/Without.php)
+        * [GetGirlFriends](src/Functions/Lessons/GetGirlFriends.php)
+        * [Slugify](src/Functions/Lessons/Slugify.php)
+        * [GetDifference](src/Functions/Lessons/GetDifference.php)
+        * [SayPrimeOrNot](src/Functions/Lessons/SayPrimeOrNot.php)
+        * [Average](src/Functions/Lessons/Average.php)
+        * [LastSym](src/Functions/Lessons/LastSym.php)
+        * [Union](src/Functions/Lessons/Union.php)
+        * [GetMenCountByYear](src/Functions/Lessons/GetMenCountByYear.php)
+        * [GetChildren](src/Functions/Lessons/GetChildren.php)
+    * [Challenges](src/Functions/Challenges)
+        * [Decode](src/Functions/Challenges/Decode.php)
+        * [GetSameParity](src/Functions/Challenges/GetSameParity.php)
+        * [EnlargeArrayImage](src/Functions/Challenges/EnlargeArrayImage.php)
+        * [FindIndexOfNearest](src/Functions/Challenges/FindIndexOfNearest.php)
+* [Data Abstractions](src/DataAbstractions)
+    * [Lessons](src/DataAbstractions/Lessons)
+        * [Rational](src/DataAbstractions/Lessons/Rational.php)
+        * [Rectangle](src/DataAbstractions/Lessons/Rectangle.php)
+        * [Gcd](src/DataAbstractions/Lessons/Gcd.php)
+        * [Segments](src/DataAbstractions/Lessons/Segments.php)
+        * [Points](src/DataAbstractions/Lessons/Points.php)
+        * [CalculateDistance](src/DataAbstractions/Lessons/CalculateDistance.php)
+    * [Challenges](src/DataAbstractions/Challenges)
+        * [Url](src/DataAbstractions/Challenges/Url.php)
+* [OOP Basics](src/OOPBasics)
+    * [Lessons](src/OOPBasics/Lessons)
+        * [User](src/OOPBasics/Lessons/User.php)
+        * [Point](src/OOPBasics/Lessons/Point.php)
+        * [DecartPointInterface](src/OOPBasics/Lessons/DecartPointInterface.php)
+        * [Rational](src/OOPBasics/Lessons/Rational.php)
+        * [SegmentFunctions](src/OOPBasics/Lessons/SegmentFunctions.php)
+        * [UserFunctions](src/OOPBasics/Lessons/UserFunctions.php)
+        * [Safe](src/OOPBasics/Lessons/Safe.php)
+        * [PointFunctions](src/OOPBasics/Lessons/PointFunctions.php)
+        * [Time](src/OOPBasics/Lessons/Time.php)
+        * [Timer](src/OOPBasics/Lessons/Timer.php)
+        * [Segment](src/OOPBasics/Lessons/Segment.php)
+        * [Comparable](src/OOPBasics/Lessons/Comparable.php)
+        * [Logger](src/OOPBasics/Lessons/Logger.php)
+    * [Challenges](src/OOPBasics/Challenges)
+        * [SquaresGenerator](src/OOPBasics/Challenges/SquaresGenerator.php)
+        * [Square](src/OOPBasics/Challenges/Square.php)
+        * [UrlInterface](src/OOPBasics/Challenges/UrlInterface.php)
+        * [Circle](src/OOPBasics/Challenges/Circle.php)
+        * [Url](src/OOPBasics/Challenges/Url.php)
+        * [Random](src/OOPBasics/Challenges/Random.php)
+* [OO Design](src/OODesign)
+    * [Lessons](src/OODesign/Challenges)
+        * [Comparator](src/OODesign/Lessons/Comparator.php)
+        * [Normalizer](src/OODesign/Lessons/Normalizer.php)
+        * [PasswordValidator](src/OODesign/Lessons/PasswordValidator.php)
+        * [CheckIfBalanced](src/OODesign/Lessons/CheckIfBalanced.php)
+        * [Booking](src/OODesign/Lessons/Booking.php)
+        * [Truncater](src/OODesign/Lessons/Truncater.php)
+        * [DeckOfCards](src/OODesign/Lessons/DeckOfCards.php)
+        * [Course](src/OODesign/Lessons/Course.php)
+        * [Converter](src/OODesign/Lessons/Converter.php)
+    * [Challenges](src/OODesign/Lessons)
+        * [Obj](src/OODesign/Challenges/Obj.php)
+        * [ObjInterface](src/OODesign/Challenges/ObjInterface.php)
+        * [Drunkard](src/OODesign/Challenges/Drunkard.php)
+        * [Dates](src/OODesign/Challenges/Dates.php)
